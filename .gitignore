@@ -13,7 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
-<<<<<<< HEAD
 # Gradle files
 .gradle/
 build/
@@ -47,5 +46,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
-=======
->>>>>>> 0dc0e0a (feature iu)
+
