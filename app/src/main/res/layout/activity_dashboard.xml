@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@color/yellow"
     android:orientation="vertical"
-    tools:context=".activities.Dashboard">
-
+    tools:context=".activites.Dashboard">
 
     <androidx.core.widget.NestedScrollView
-
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -19,6 +17,84 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="380dp">
+
+                <LinearLayout
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:background="@drawable/man_thumbnail"
+                        android:layout_margin="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/dfvn_konde_black"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="right"
+                        android:text="Công thức nấu các món mặn"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/dfvn_konde_regular"
+                        android:textSize="14sp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="right"
+                        android:text="Dành cho người ăn thịt"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:fontFamily="@font/dfvn_konde_thin"
+                        android:padding="6dp"
+                        android:background="@drawable/total_count_button"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="right"
+                        android:text="Total count is 5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+                    <Button
+                        android:id="@+id/monMan"
+                        android:onClick="ViewAll"
+                        android:layout_marginTop="22dp"
+                        android:backgroundTint="@color/yellow"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:text="View All"
+                        android:layout_gravity="center"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
 
             <androidx.cardview.widget.CardView
                 android:layout_margin="20dp"
@@ -28,58 +104,66 @@
                 android:layout_height="380dp">
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <ImageView
+                        android:background="@drawable/ic_vegetarian"
                         android:layout_margin="20dp"
                         android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:src="@drawable/chay_1">
-                    </ImageView>
+                        android:layout_height="160dp"/>
 
                     <TextView
+                        android:fontFamily="@font/dfvn_konde_black"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_marginRight="20dp"
                         android:gravity="right"
-                        android:text="Đậu Phụ Chiên Cay"
+                        android:text="Công thức nấu các món chay"
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
+
 
 
                     <TextView
                         android:layout_marginTop="10dp"
                         android:textColor="@color/black"
-                        android:textSize="18dp"
+                        android:fontFamily="@font/dfvn_konde_regular"
+                        android:textSize="14sp"
                         android:layout_marginRight="20dp"
                         android:gravity="right"
-                        android:text="Mô Tả: Đây là món chay"
+                        android:text="Dành cho người ăn chay"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
                     <TextView
+                        android:fontFamily="@font/dfvn_konde_thin"
                         android:padding="6dp"
                         android:background="@drawable/total_count_button"
                         android:layout_marginTop="10dp"
                         android:textColor="@color/black"
-                        android:textSize="16dp"
+                        android:textSize="14sp"
                         android:layout_marginRight="20dp"
                         android:layout_gravity="right"
-                        android:text="Món Chay"
+                        android:text="Total count is 5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
 
+
                     <Button
+                        android:id="@+id/monChay"
+                        android:onClick="ViewAll"
                         android:layout_marginTop="22dp"
-                        android:background="@drawable/view_all_button"
+                        android:backgroundTint="@color/yellow"
                         android:textSize="18sp"
-                        android:textColor="@android:color/black"
-                        android:text="Xem chi tiết"
+                        android:textColor="@color/black"
+                        android:text="View All"
                         android:layout_gravity="center"
                         android:layout_width="150dp"
                         android:layout_height="50dp"/>
@@ -88,297 +172,15 @@
                 </LinearLayout>
 
 
-
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_margin="20dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="380dp">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_margin="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:src="@drawable/chay_2">
-                    </ImageView>
-
-                    <TextView
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Đậu Xào Nấm"
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
 
 
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="18dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Mô Tả: Đây là món chay"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:padding="6dp"
-                        android:background="@drawable/total_count_button"
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="16dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_gravity="right"
-                        android:text="Món Chay"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-
-                    <Button
-                        android:layout_marginTop="22dp"
-                        android:background="@drawable/view_all_button"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/black"
-                        android:text="Xem chi tiết"
-                        android:layout_gravity="center"
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"/>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_margin="20dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="380dp">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_margin="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:src="@drawable/chay_3">
-                    </ImageView>
-
-                    <TextView
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Chả Chay Rim Mắm"
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="18dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Mô Tả: Đây là món chay"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:padding="6dp"
-                        android:background="@drawable/total_count_button"
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="16dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_gravity="right"
-                        android:text="Món Chay"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-
-                    <Button
-                        android:layout_marginTop="22dp"
-                        android:background="@drawable/view_all_button"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/black"
-                        android:text="Xem chi tiết"
-                        android:layout_gravity="center"
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"/>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_margin="20dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="380dp">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_margin="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:src="@drawable/chay_4">
-                    </ImageView>
-
-                    <TextView
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Rau Xào Nấm"
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="18dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Mô Tả: Đây là món chay"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:padding="6dp"
-                        android:background="@drawable/total_count_button"
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="16dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_gravity="right"
-                        android:text="Món Chay"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-
-                    <Button
-                        android:layout_marginTop="22dp"
-                        android:background="@drawable/view_all_button"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/black"
-                        android:text="Xem chi tiết"
-                        android:layout_gravity="center"
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"/>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_margin="20dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="380dp">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_margin="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="160dp"
-                        android:src="@drawable/chay_5">
-                    </ImageView>
-
-                    <TextView
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Nem Chay"
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="18dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
-                        android:text="Mô Tả: Đây là món chay"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:padding="6dp"
-                        android:background="@drawable/total_count_button"
-                        android:layout_marginTop="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="16dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_gravity="right"
-                        android:text="Món Chay"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-
-                    <Button
-                        android:layout_marginTop="22dp"
-                        android:background="@drawable/view_all_button"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/black"
-                        android:text="Xem chi tiết"
-                        android:layout_gravity="center"
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"/>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
 
+    </androidx.core.widget.NestedScrollView>
 
 
 
