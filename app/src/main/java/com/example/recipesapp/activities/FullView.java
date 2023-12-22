@@ -1,4 +1,4 @@
-package com.example.appcongthucnauan2023.activites;
+package com.example.recipesapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

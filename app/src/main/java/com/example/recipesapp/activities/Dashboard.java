@@ -1,4 +1,6 @@
-package com.example.appcongthucnauan2023.activites;
+package com.example.recipesapp.activities;
+
+import static android.os.Build.VERSION_CODES.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 

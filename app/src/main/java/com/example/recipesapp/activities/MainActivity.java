@@ -1,4 +1,4 @@
-package com.example.appcongthucnauan2023.activites;
+package com.example.recipesapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,9 +7,9 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.widget.GridView;
 
-import com.example.appcongthucnauan2023.R;
-import com.example.appcongthucnauan2023.adapter.CustomAdapter;
-import com.example.appcongthucnauan2023.model.Constant;
+import com.example.recipesapp.R;
+import com.example.recipesapp.adapter.CustomAdapter;
+import com.example.recipesapp.model.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
