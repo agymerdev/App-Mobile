@@ -1,3 +1,271 @@
 <resources>
-    <string name="app_name">Recipes App</string>
+    <string name="app_name">Char1ty Recipes</string>
+
+
+
+
+    <!-- Món Mặn -->
+
+    <!--m1-->
+
+    <string name="t1">Thịt gà rang muối</string>
+    <string name="in1">
+\n 500g thịt gà (có thể chọn ở cánh, đùi, hoặc ức)
+\n một muỗng canh muối ăn
+\n một phần hai muỗng cà phê tiêu đen
+\n một muỗng cà phê đường
+\n một muỗng canh nước mắm
+\n hai muỗng canh bột năng
+    </string>
+
+    <string name="im1">
+\n Chuẩn bị gà: Rửa sạch và cắt thành từng miếng vừa ăn
+\n Hỗn hợp muối: Trong một tô nhỏ, trộn đều muối, tiêu, đường, nước mắm và bột năng
+\n Ướp gà: Bôi hỗn hợp muối lên thịt gà, massage nhẹ để gia vị thấm đều. Để thịt ướt trong khoảng 15-30 phút
+\n Rang gà: Cho dầu vào chảo, đun nóng. Rán gà từng miếng cho đến khi vàng giòn và chín tới
+\n Thưởng thức: Gắp gà ra khỏi chảo, để giấy thấm dầu và dùng nóng
+    </string>
+
+    <!--m2-->
+
+    <string name="t2">Thịt kho tầu</string>
+    <string name="in2">
+\n 500g thịt ba chỉ hoặc thịt nạc heo, cắt thành từng miếng vuông nhỏ
+\n một củ hành tây, băm nhuyễn
+\n ba phần tư tép tỏi, băm nhuyễn
+\n hai muỗng nước mắm
+\n một muỗng canh dầu ăn
+\n một muỗng cà phê đường
+\n một phần hai muỗng cà phê tiêu
+\n một phần hai muỗng cà phê muối
+\n một cốc nước dừa tươi (hoặc nước lọc)
+\n hai quả trứng (nếu muốn)
+    </string>
+
+    <string name="im2">
+\n Bắt đầu với việc xào hành tỏi: Đun nóng dầu ăn trong nồi, thêm hành tây và tỏi băm vào, xào cho đến khi hương thơm
+\n Thêm thịt vào nồi, xào cho thịt chuyển sang màu trắng
+\n Đun nóng nước dừa tươi hoặc nước lọc, thêm nước mắm, đường, tiêu, và muối. Khi hỗn hợp sôi, giảm lửa vừa, đun nhỏ lửa cho thịt thấm gia vị
+\n Nếu muốn, bạn có thể thêm trứng cút vào nồi, đun nhỏ lửa cho trứng chín
+\n Khi thịt mềm và nước sôi hấp thụ hết gia vị, tắt bếp
+    </string>
+
+    <!--m3-->
+
+    <string name="t3">Cá kho</string>
+    <string name="in3">
+\n500g cá (loại cá có thịt ngon như cá basa, cá lăng, cá trích), cắt thành từng miếng vừa ăn
+\n ba phần tư muỗng canh nước mắm
+\n hai muỗng canh đường
+\n một muỗng cà phê tiêu
+\n ba phần tư tép tỏi, băm nhuyễn
+\n một củ hành tây, băm nhuyễn
+\n một muỗng canh dầu ăn
+\n một phần hai quả ớt (tuỳ khẩu vị), băm nhuyễn
+\n Nước cốt dừa hoặc nước lọc
+    </string>
+
+    <string name="im3">
+\n Chuẩn bị cá: Rửa cá sạch, để ráo nước và ướp cá với nước mắm, đường, tiêu trong khoảng 15-30 phút
+\n Xào tỏi hành: Đun nóng dầu ăn trong nồi, xào tỏi và hành tây băm nhuyễn cho đến khi thơm
+\n Phi nước cốt dừa (hoặc nước lọc) vào nồi. Đặt lửa nhỏ và đun sôi
+\n Đặt cá vào nước cốt dừa, để lửa nhỏ, nắp nồi và hầm trong khoảng 20-30 phút hoặc cho đến khi cá chín và thấm gia vị
+\n Thêm ớt băm vào nồi, hâm nóng trong vài phút nữa
+\n Kiểm tra và nếm gia vị, thêm nước mắm, đường, tiêu nếu cần thiết
+\n Khi cá chín và nước sôi hấp thụ hết gia vị, tắt bếp
+    </string>
+
+    <!--m4-->
+
+    <string name="t4">Tôm rang thịt</string>
+    <string name="in4">
+\n 300g tôm, bóc vỏ, tẩy sạch
+\n 100g thịt heo xay nhuyễn
+\n ba muỗng canh nước mắm
+\n một muỗng canh dầu ăn
+\n một muỗng cà phê đường
+\n một phần hai muỗng cà phê tiêu
+\n ba phần tư tép tỏi, băm nhuyễn
+\n một củ hành tây, cắt lát mỏng
+\n một ớt cay, băm nhuyễn (tùy chọn)
+\n Rau mùi, hành lá để trang trí
+    </string>
+
+    <string name="im4">
+\n Bắt đầu với việc xào thơm: Đun nóng dầu ăn trong chảo, thêm tỏi băm và hành tây, xào cho đến khi thơm
+\n Thêm thịt xay vào chảo, xào cho đến khi thịt chín và có màu vàng nhạt
+\n Đặt tôm vào chảo, xào nhanh cho tôm thịt đổi màu
+\n Hòa nước mắm, đường, tiêu vào chảo, trộn đều gia vị với thịt và tôm
+\n Nếu muốn có một chút cay, bạn có thể thêm ớt băm vào
+\n Khi tôm chín và thịt đã hấp thụ đủ gia vị, tắt bếp
+\n Trang trí món ăn với rau mùi và hành lá
+    </string>
+
+    <!--m5-->
+
+    <string name="t5">Vịt quay</string>
+    <string name="in5">
+\n một con vịt tươi (khoảng 2-2.5 kg)
+\n ba muỗng canh muối
+\n một muỗng cà phê tiêu
+\n một muỗng cà phê đường
+\n một muỗng canh nước tương
+\n một muỗng canh dầu ăn (hoặc dầu mè)
+\n một ớt tươi (tùy chọn)
+\n năm đến sáu cái lá chuối
+\n Nước sôi (để rưới lên vịt)
+    </string>
+
+    <string name="im5">
+\n Chuẩn bị vịt: Rửa sạch vịt và lau khô bên ngoài bằng giấy
+\n Bỏ họng và bắt đầu nhồi muối vào bên trong vịt. Mỗi kg vịt cần khoảng 1 muỗng canh muối
+\n Xoa đều bề mặt vịt bằng hỗn hợp muối, tiêu, đường, nước tương và dầu ăn
+\n Phơi vịt: Đặt vịt vào tủ lạnh, phơi khoảng 4-6 giờ hoặc qua đêm để gia vị thấm đều vào thịt
+\n Nướng vịt: Trước khi nướng, đặt vịt ở nhiệt độ phòng để giảm sự lạnh lẽo
+\n Nướng trong lò đã được trước nóng ở 200°C trong khoảng 30-40 phút hoặc cho đến khi vịt chín và có màu vàng đẹp
+\n Rưới nước sôi: Khi vịt đã nướng chín, đun sôi nước và rưới nước sôi lên bề mặt vịt. Điều này giúp làm cho da vịt trở nên giòn và màu đẹp
+\n Trang trí và thưởng thức: Trang trí vịt với lá chuối và ớt tươi
+\n Cắt vịt thành từng miếng và dọn ra đĩa
+\n Thưởng thức với xôi, bánh mì hoặc các loại sốt tùy chọn
+    </string>
+
+
+
+
+    <!-- Món Chay -->
+
+    <!--c1-->
+
+    <string name="tc1">Đậu phụ chiên giòn</string>
+    <string name="inc1">
+\n 300g đậu phụ, cắt thành miếng vuông hoặc hình dáng mong muốn
+\n hai muỗng nước mắm chay
+\n một muỗng canh dầu ăn (hoặc dầu ăn hạ nhiệt)
+\n một muỗng canh bột năng hoặc bột chiên giòn
+\n một muỗng cà phê tiêu
+\n một muỗng cà phê đường
+\n một phần hai muỗng cà phê muối
+\n dầu ăn để chiên giòn
+    </string>
+
+    <string name="imc1">
+\n Chuẩn bị đậu phụ:Làm ráo đậu phụ bằng cách đặt giữa các lớp giấy nhà bếp và đặt một vật nặng lên trên để nén trong khoảng 15-20 phút để loại bỏ nước thừa
+\n Ướp gia vị:Trong một tô nhỏ, trộn nước mắm, dầu ăn, bột năng (hoặc bột chiên giòn), tiêu, đường, và muối để tạo nước sốt ướp
+\n Ướp đậu phụ:Đặt đậu phụ vào một tô lớn, rót nước sốt ướp vào và trộn đều để đậu phụ hấp thụ gia vị
+\n Chiên đậu phụ:Đun nóng dầu trong chảo. Khi dầu nóng, thả từng miếng đậu phụ vào chảo và chiên đến khi chúng có màu vàng và giòn
+\n Lấy ra và ráo dầu:Đặt đậu phụ chiên giòn lên giấy nhà bếp để loại bỏ dầu thừa
+\n Trang trí và thưởng thức:Trang trí bằng rau sống hoặc ớt tươi, và dùng nóng kèm với sốt mắm chay hoặc sốt ướt tùy chọn
+    </string>
+
+    <!--c2-->
+
+    <string name="tc2">Nấm xào đậu phụ</string>
+    <string name="inc2">
+\n 200g nấm (loại nấm mà bạn thích như nấm mèo, nấm oyster), rửa sạch và cắt nhỏ
+\n 200g đậu phụ, cắt thành từng miếng vuông
+\n một cà rốt, băm nhuyễn hoặc cắt sợi (tùy chọn)
+\n một hành tây, cắt lát hoặc băm nhuyễn
+\n ba đến bốn tép tỏi, băm nhuyễn
+\n một muỗng canh dầu ăn
+\n một muỗng canh nước mắm chay
+\n một muỗng cà phê đường
+\n một phần hai muỗng cà phê tiêu
+\n Rau mùi (hành lá và ngò gai) để trang trí
+    </string>
+
+    <string name="imc2">
+\n Chuẩn bị nguyên liệu:Rửa sạch nấm và cắt nhỏ
+\n Chuẩn bị đậu phụ và các loại rau củ theo yêu cầu
+\n Xào tỏi:Đun nóng dầu ăn trong chảo, thêm tỏi băm vào xào thơm
+\n Xào nấm và đậu phụ:Thêm nấm vào chảo, xào cho nấm chín
+\n Sau đó, thêm đậu phụ vào, xào đều
+\n Thêm gia vị:Rót nước mắm, đường, và tiêu vào chảo, trộn đều
+\n Thêm rau củ:Nếu sử dụng cà rốt, hành tây, thêm chúng vào chảo và xào nhanh cho đến khi rau củ chín mềm nhưng vẫn giữ độ giò
+\n Kiểm tra và điều chỉnh gia vị:Kiểm tra mùi vị, có thể thêm nước mắm, đường, hoặc tiêu nếu cần thiết
+\n Trang trí và thưởng thức:Trang trí bằng rau mùi như hành lá và ngò gai
+\n Dọn ra đĩa và thưởng thức nóng kèm với cơm trắng
+    </string>
+
+    <!--c3-->
+
+    <string name="tc3">Chả chay rim mắm</string>
+    <string name="inc3">
+\n 200g đậu hủ (tofu), nghiền nhuyễn
+\n 50g nấm đùi gà, băm nhỏ
+\n 50g bún tàu hủ (bún chay) - có thể mua tại cửa hàng thực phẩm chay
+\n hai muỗng canh nước tương
+\n một muỗng canh mỡ hành chay
+\n một muỗng cà phê đường
+\n một phần hai muỗng cà phê tiêu
+\n một muỗng canh bột năng
+\n một muỗng canh nước mắm chay
+\n hai muỗng canh mỡ hành tây (hoặc dầu ăn)
+\n hai tép tỏi, băm nhuyễn
+\n một muỗng cà phê hành phi (hành tím băm phi)
+\n mắm rim để rim chả
+    </string>
+
+    <string name="imc3">
+\n Chuẩn bị chả:Trong một tô lớn, trộn đều đậu hủ nghiền, nấm đùi gà, bún tàu hủ, nước tương, mỡ hành chay, đường, tiêu, bột năng, và nước mắm chay. Trộn đến khi tạo thành một hỗn hợp đồng đều
+\n Làm hình chả:Lấy từng phần hỗn hợp chả để làm thành từng viên hình tròn hoặc hình dài tùy ý
+\n Nướng chả:Đặt chả vào khuôn hoặc nồi hấp, nướng hoặc hấp trong khoảng 20-25 phút cho đến khi chả chín
+\n Rim mắm:Trong một chảo nhỏ, đun nóng mỡ hành tây (hoặc dầu ăn), thêm tỏi băm và hành phi. Chảo nên được đun nóng trước khi thêm tỏi để tránh chả bị nát
+\n Khi tỏi và hành phi thơm, thêm mắm rim vào chảo. Trộn đều cho mắm tan hết và tạo thành một lớp nước rim
+\n Rim chả:Khi chả đã chín, đặt chả vào nồi mắm rim, đảm bảo chả được đều mắm rim ở mặt trên và dưới. Rim chả trong khoảng 10-15 phút cho đến khi chả hấp thụ hết mùi vị của mắm rim
+\n Dọn ra đĩa và thưởng thức:Dùng chả chay rim mắm nóng kèm với cơm trắng hoặc bánh mì
+    </string>
+
+    <!--c4-->
+
+    <string name="tc4">Rau củ xào</string>
+    <string name="inc4">
+\n Rau củ: Bắp cải, cà rốt, củ cải, cải xanh, bông cải, cải bắp, đậu bắp, nấm, hành tây, tỏi, gừng, etc.
+\n Dầu ăn (dầu ăn hạ nhiệt hoặc dầu hạch)
+\n Nước mắm
+\n Muối và tiêu
+\n Gia vị (tùy chọn): hạt nêm chay, dầu mè, dầu hào, xiên que, hành lá để trang trí.    </string>
+
+    <string name="imc4">
+\n Chuẩn bị rau củ:Rửa sạch rau củ và cắt nhỏ, hình sợi hoặc hình dạng mong muốn. Nếu sử dụng nấm, hãy cắt chúng thành lớp mỏng
+\n Xào rau củ:Đun nóng dầu ăn trong chảo hoặc nồi. Thêm tỏi và gừng băm nhuyễn (nếu sử dụng) để tạo mùi thơm
+\n Đặt rau củ vào chảo và xào nhanh trên lửa cao trong khoảng 3-5 phút. Hãy luôn di chuyển rau củ để tránh chúng bị cháy
+\n Gia vị:Thêm nước mắm, muối, và tiêu vào chảo để gia vị theo khẩu vị cá nhân. Nếu muốn, bạn có thể thêm các gia vị khác như hạt nêm chay, dầu mè, hoặc dầu hào
+\n Nấu chín:Hạ lửa và đun chảo trong khoảng 5-10 phút hoặc cho đến khi rau củ chín và giữ độ giò. Nếu cần, bạn có thể thêm một ít nước để giúp rau củ nấu chín
+\n Kiểm tra và điều chỉnh hương vị:Kiểm tra và điều chỉnh gia vị nếu cần thiết. Thêm muối, nước mắm hoặc tiêu để làm cho món ăn thêm ngon miệng
+\n Trang trí và thưởng thức:Trang trí bằng hành lá và xiên que. Dọn ra đĩa và thưởng thức nóng kèm với cơm trắng
+    </string>
+
+    <!--c5-->
+
+    <string name="tc5">Nem chay rán</string>
+    <string name="inc5">
+\n 200g bún (bún tàu hoặc bún gạo)
+\n 100g nấm hương, băm nhuyễn
+\n một cà rốt, băm nhỏ hoặc cắt sợi
+\n 50g nấm mèo, băm nhỏ
+\n một gói bún tươi (hoặc bánh tráng cuốn)
+\n một phần hai cuốn bánh tráng cuốn (nếu sử dụng bánh tráng cuốn)
+\n hai muỗng canh nước tương
+\n môt muỗng canh nước mắm
+\n một muỗng canh dầu ăn
+\n một muỗng cà phê đường
+\n tiêu và muối theo khẩu vị
+\n dầu ăn để rán
+    </string>
+
+    <string name="imc5">
+\n Chuẩn bị nguyên liệu:Nấm hương, nấm mèo, cà rốt được băm nhuyễn
+\n Nấu bún:Luộc bún cho đến khi chín tới, sau đó xả qua nước lạnh, để ráo
+\n Chế biến nhân:Đun nóng dầu ăn trong chảo, thêm nấm hương, nấm mèo, và cà rốt vào xào cho đến khi chín tới
+\n Thêm nước tương, nước mắm, đường, tiêu, và muối vào chảo, trộn đều
+\n Chế biến bánh tráng cuốn:Đặt bánh tráng cuốn vào nước ấm để làm mềm. Sau đó, đặt một lớp bún lên bánh tráng cuốn
+\n Cuốn nem:Đặt một lượng nhân đã xào ở giữa bánh tráng cuốn. Cuốn nhẹ từ phía dưới lên và cuộn chặt, đảm bảo không để khí bên trong
+\n Nếu sử dụng bún tươi, đặt nhân ở giữa và cuốn bánh tráng cuốn bình thường
+\n Rán nem:Đun nóng dầu trong chảo. Rán nem cho đến khi chúng có màu vàng và giòn
+\n Dọn ra đĩa và thưởng thức:Dùng nem chay nóng kèm với nước mắm pha chua ngọt hoặc sốt chay tùy chọn
+    </string>
+
+
+
+
 </resources>
